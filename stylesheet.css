@@ -20,7 +20,7 @@
     z-index: 1;
     }
 
-    #circul {
+    #block {
     position: absolute;
     margin: auto;
     top: 0px;
@@ -36,7 +36,7 @@
     z-index: 2;
     }
 
-    #circul::before {
+    #block::before {
     content: "";
     position: absolute;
     background-color: cyan;
@@ -46,7 +46,7 @@
     width: 30px;
     }
     
-    #circul::after {
+    #block::after {
     content: "";
     position: absolute;
     top: -20px;
